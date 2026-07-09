@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kegiatan OSIS Digital</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav class="navbar">
+
+
+<div class="logo">
+
+<span>O</span>SIS DIGITAL
+
+</div>
+
+
+
+<ul class="nav-menu">
+
+
+<li>
+<a href="index.html">
+Beranda
+</a>
+</li>
+
+
+<li>
+<a class="active" href="kegiatan.html">
+Kegiatan
+</a>
+</li>
+
+
+<li>
+<a href="kebijakan.html">
+Kebijakan
+</a>
+</li>
+
+
+<li>
+<a href="tentang.html">
+Tentang Kami
+</a>
+</li>
+
+
+<li>
+<a href="ketua.html">
+Ketua OSIS
+</a>
+</li>
+
+
+</ul>
+
+
+<button id="theme-btn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+
+
+</nav>
+
+</header>
+
+
+
+
+
+<!-- HERO -->
+
+<section class="hero page-hero">
+
+
+<div class="hero-content">
+
+
+<p class="welcome">
+PROGRAM KERJA
+</p>
+
+
+<h1>
+KEGIATAN
+<span>OSIS</span>
+</h1>
+
+
+<p>
+Berbagai kegiatan kreatif,
+edukatif, dan sosial dari OSIS.
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- SEARCH -->
+
+
+<section>
+
+
+<div class="section-title">
+
+
+<h2>
+Daftar Kegiatan
+</h2>
+
+
+<p>
+Temukan kegiatan OSIS terbaru
+</p>
+
+
+</div>
+
+
+
+<div class="search-box">
+
+
+<input 
+type="text"
+id="search"
+placeholder="Cari kegiatan..."
+>
+
+
+</div>
+
+
+
+
+
+<!-- FILTER -->
+
+<div class="filter">
+
+
+<button class="filter-btn active">
+Semua
+</button>
+
+
+<button class="filter-btn">
+Sosial
+</button>
+
+
+<button class="filter-btn">
+Pendidikan
+</button>
+
+
+<button class="filter-btn">
+Olahraga
+</button>
+
+
+<button class="filter-btn">
+Kreativitas
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- CARD -->
+
+<div class="activity-grid">
+
+
+
+
+
+<div class="activity-card"
+data-category="Sosial">
+
+
+<img src="assets/images/bakti.jpg">
+
+
+<div>
+
+
+<span>
+Sosial
+</span>
+
+
+<h3>
+Bakti Sosial OSIS
+</h3>
+
+
+<p>
+Kegiatan berbagi kepada masyarakat
+sebagai bentuk kepedulian sosial.
+</p>
+
+
+<button>
+Lihat Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="activity-card"
+data-category="Olahraga">
+
+
+<img src="assets/images/classmeeting.jpg">
+
+
+<div>
+
+
+<span>
+Olahraga
+</span>
+
+
+<h3>
+Class Meeting
+</h3>
+
+
+<p>
+Kompetisi olahraga antar anggota
+untuk meningkatkan solidaritas.
+</p>
+
+
+<button>
+Lihat Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="activity-card"
+data-category="Kreativitas">
+
+
+<img src="assets/images/seni.jpg">
+
+
+<div>
+
+
+<span>
+Kreativitas
+</span>
+
+
+<h3>
+Festival Seni
+</h3>
+
+
+<p>
+Menampilkan bakat dan kreativitas
+anggota OSIS.
+</p>
+
+
+<button>
+Lihat Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="activity-card"
+data-category="Pendidikan">
+
+
+<img src="assets/images/seminar.jpg">
+
+
+<div>
+
+
+<span>
+Pendidikan
+</span>
+
+
+<h3>
+Seminar Kepemimpinan
+</h3>
+
+
+<p>
+Pelatihan karakter dan jiwa pemimpin.
+</p>
+
+
+<button>
+Lihat Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+
+<h2>
+OSIS DIGITAL
+</h2>
+
+
+<p>
+Organisasi siswa modern berbasis digital
+</p>
+
+
+<div class="social">
+
+
+<i class="fa-brands fa-instagram"></i>
+
+<i class="fa-brands fa-youtube"></i>
+
+<i class="fa-brands fa-facebook"></i>
+
+
+</div>
+
+
+
+<p>
+© 2026 OSIS Digital
+</p>
+
+
+</footer>
+
+
+
+
+
+<script src="js/main.js"></script>
+
+
+<script>
+
+
+// SEARCH
+
+const search =
+document.getElementById("search");
+
+
+const cards =
+document.querySelectorAll(".activity-card");
+
+
+
+search.addEventListener("keyup",()=>{
+
+
+let value =
+search.value.toLowerCase();
+
+
+
+cards.forEach(card=>{
+
+
+let text =
+card.innerText.toLowerCase();
+
+
+
+if(text.includes(value)){
+
+
+card.style.display="block";
+
+
+}
+
+else{
+
+
+card.style.display="none";
+
+
+}
+
+
+
+});
+
+
+
+});
+
+
+
+
+
+
+
+// FILTER
+
+
+const buttons =
+document.querySelectorAll(".filter-btn");
+
+
+
+buttons.forEach(btn=>{
+
+
+btn.onclick=()=>{
+
+
+buttons.forEach(b=>
+b.classList.remove("active"));
+
+btn.classList.add("active");
+
+
+
+let filter =
+btn.innerText;
+
+
+
+cards.forEach(card=>{
+
+
+if(
+filter=="Semua" ||
+card.dataset.category==filter
+){
+
+
+card.style.display="block";
+
+
+}
+
+else{
+
+
+card.style.display="none";
+
+
+}
+
+
+});
+
+
+
+}
+
+
+
+});
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
