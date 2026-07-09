@@ -4,142 +4,488 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Organisasi Siswa</title>
+<title>OSIS Digital | Organisasi Siswa</title>
+
+<meta name="description" content="Website resmi OSIS Digital">
 
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Icon -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
 
-<div class="logo">
-<img src="assets/logo.png">
-<span>ORGANISASI SISWA</span>
+<!-- LOADING -->
+
+<div class="loader">
+    <div class="loader-logo">
+        OSIS
+    </div>
 </div>
 
 
-<nav>
-<a href="index.html">Home</a>
-<a href="kegiatan.html">Kegiatan</a>
-<a href="event.html">Event</a>
-<a href="tentang.html">Tentang</a>
-<a href="kepengurusan.html">Pengurus</a>
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+    <span>O</span>SIS DIGITAL
+</div>
+
+
+<ul class="nav-menu">
+
+<li>
+<a class="active" href="index.html">
+Beranda
+</a>
+</li>
+
+<li>
+<a href="kegiatan.html">
+Kegiatan
+</a>
+</li>
+
+<li>
+<a href="kebijakan.html">
+Kebijakan
+</a>
+</li>
+
+
+<li>
+<a href="tentang.html">
+Tentang Kami
+</a>
+</li>
+
+
+<li>
+<a href="ketua.html">
+Ketua OSIS
+</a>
+</li>
+
+
+</ul>
+
+
+<button id="theme-btn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+
 </nav>
 
 </header>
 
 
 
+
+<!-- HERO -->
+
 <section class="hero">
 
 
-<div class="slider">
-
-<img src="assets/poster1.jpg" class="slide active">
-
-<img src="assets/poster2.jpg" class="slide">
-
-<img src="assets/poster3.jpg" class="slide">
+<div class="particles"></div>
 
 
-<button id="prev">
-❮
-</button>
+<div class="hero-content">
 
 
-<button id="next">
-❯
-</button>
+<p class="welcome">
+WEBSITE RESMI
+</p>
+
+
+<h1>
+OSIS
+<span>DIGITAL</span>
+</h1>
+
+
+<p>
+Membangun generasi kreatif,
+aktif, inovatif, dan berkarakter
+melalui organisasi siswa.
+</p>
+
+
+<div class="hero-button">
+
+<a href="#event">
+Mulai Jelajah
+</a>
 
 
 </div>
 
 
-<div class="hero-text">
+</div>
 
-<h1>
-Bersama Membangun Organisasi
-</h1>
+
+</section>
+
+
+
+
+
+<!-- SAMBUTAN -->
+
+<section class="sambutan">
+
+
+<div class="section-title">
+
+<h2>
+Sambutan Ketua OSIS
+</h2>
+
+</div>
+
+
+
+<div class="glass-card">
+
 
 <p>
-Kreatif, Aktif, Inspiratif
+"Selamat datang di website resmi OSIS.
+Melalui platform digital ini kami menghadirkan
+informasi kegiatan, program kerja, dan berbagai
+inovasi organisasi kami."
+</p>
+
+
+<h3>
+— Ketua OSIS
+</h3>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- EVENT CAROUSEL -->
+
+<section id="event">
+
+
+<div class="section-title">
+
+<h2>
+Event Terbaru
+</h2>
+
+<p>
+Agenda dan kegiatan terbaru OSIS
+</p>
+
+</div>
+
+
+
+<div class="event-wrapper">
+
+
+<button class="slide-btn left">
+<i class="fa-solid fa-angle-left"></i>
+</button>
+
+
+
+<div class="event-container">
+
+
+
+<div class="event-card">
+
+
+<img src="assets/images/event1.jpg">
+
+
+<div>
+
+<span>
+COMING SOON
+</span>
+
+
+<h3>
+Festival Kreativitas OSIS
+</h3>
+
+
+<p>
+Ajang kreativitas siswa
+dalam bidang seni dan inovasi.
 </p>
 
 
 <button>
-Lihat Event
+Detail
 </button>
 
 
 </div>
 
 
+</div>
+
+
+
+
+
+<div class="event-card">
+
+
+<img src="assets/images/event2.jpg">
+
+
+<div>
+
+<span>
+EVENT
+</span>
+
+
+<h3>
+Class Meeting
+</h3>
+
+
+<p>
+Kompetisi olahraga dan
+kegiatan antar kelas.
+</p>
+
+
+<button>
+Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="event-card">
+
+
+<img src="assets/images/event3.jpg">
+
+
+<div>
+
+<span>
+AGENDA
+</span>
+
+
+<h3>
+Bakti Sosial OSIS
+</h3>
+
+
+<p>
+Program kepedulian sosial
+oleh pengurus OSIS.
+</p>
+
+
+<button>
+Detail
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<button class="slide-btn right">
+<i class="fa-solid fa-angle-right"></i>
+</button>
+
+
+
+</div>
+
+
 </section>
 
 
 
 
+
+
+<!-- STATISTIK -->
+
+
+<section class="stats">
+
+
+<div class="stat-card">
+
+<h2>
+100+
+</h2>
+
+<p>
+Program Kerja
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2>
+50+
+</h2>
+
+<p>
+Kegiatan
+</p>
+
+</div>
+
+
+
+
+<div class="stat-card">
+
+<h2>
+30+
+</h2>
+
+<p>
+Pengurus
+</p>
+
+</div>
+
+
+
+<div class="stat-card">
+
+<h2>
+1000+
+</h2>
+
+<p>
+Anggota
+</p>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- PROGRAM -->
 
 <section>
 
+
+<div class="section-title">
+
 <h2>
-Kegiatan Terbaru
+Program Unggulan
 </h2>
 
+</div>
 
-<div class="cards">
 
 
-<div class="card">
+<div class="program-grid">
 
-<img src="assets/poster1.jpg">
+
+<div class="program-card">
+
+<i class="fa-solid fa-lightbulb"></i>
 
 <h3>
-Bakti Sosial
+Kreativitas
 </h3>
 
 <p>
-Kegiatan sosial organisasi.
+Mengembangkan ide dan bakat anggota.
 </p>
 
 </div>
 
 
 
-<div class="card">
 
-<img src="assets/poster2.jpg">
+<div class="program-card">
+
+<i class="fa-solid fa-users"></i>
 
 <h3>
-Seminar Pelajar
+Kepemimpinan
 </h3>
 
 <p>
-Pengembangan kemampuan siswa.
+Melatih jiwa pemimpin muda.
 </p>
 
 </div>
 
 
 
-<div class="card">
 
-<img src="assets/poster3.jpg">
+<div class="program-card">
+
+<i class="fa-solid fa-handshake"></i>
 
 <h3>
-Lomba Kreatif
+Solidaritas
 </h3>
 
 <p>
-Ajang kreativitas anggota.
+Membangun kerja sama organisasi.
 </p>
 
 </div>
 
 
+
 </div>
+
 
 </section>
 
@@ -147,48 +493,46 @@ Ajang kreativitas anggota.
 
 
 
-<section class="agenda">
 
-<h2>
-Agenda Terdekat
-</h2>
-
-
-<ul>
-
-<li>
-20 Juli 2026 - Sayembara Logo
-</li>
-
-
-<li>
-17 Agustus 2026 - Perayaan Kemerdekaan
-</li>
-
-
-<li>
-10 Oktober 2026 - Anniversary Organisasi
-</li>
-
-
-</ul>
-
-</section>
-
-
-
+<!-- FOOTER -->
 
 
 <footer>
 
+
+<h2>
+OSIS DIGITAL
+</h2>
+
+
 <p>
-© 2026 Organisasi Siswa
+Organisasi Siswa Modern Berbasis Digital
 </p>
+
+
+<div class="social">
+
+<i class="fa-brands fa-instagram"></i>
+
+<i class="fa-brands fa-facebook"></i>
+
+<i class="fa-brands fa-youtube"></i>
+
+</div>
+
+
+<p class="copyright">
+© 2026 OSIS Digital
+</p>
+
 
 </footer>
 
 
-<script src="js/script.js"></script>
+
+
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
