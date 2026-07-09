@@ -912,3 +912,51 @@ overflow-x:auto;
 
 
 }
+/* =================================
+   SCROLL REVEAL ANIMATION
+================================= */
+
+
+section,
+.event-card,
+.program-card,
+.stat-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:1s ease;
+
+}
+
+
+
+
+
+/* =================================
+   MOUSE GLOW EFFECT
+================================= */
+
+
+.mouse-glow{
+
+    position:fixed;
+
+    width:200px;
+
+    height:200px;
+
+    border-radius:50%;
+
+    background:#22d3ee33;
+
+    filter:blur(70px);
+
+    pointer-events:none;
+
+    transform:translate(-50%,-50%);
+
+    z-index:-1;
+
+}
